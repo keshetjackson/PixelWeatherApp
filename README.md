@@ -10,7 +10,14 @@ Asp .Net Weather Application using pixel like design
 
 simply pull and run it
 
-    
+## using the application 
+you can get weather  with only city name
+![_Using Pixel Weather Application_ - Step 2](https://user-images.githubusercontent.com/98225513/221834959-c87eb3be-fbc6-478a-96e6-9c4aa18bac27.jpeg)
+![_Using Pixel Weather Application_ - Step 3](https://user-images.githubusercontent.com/98225513/221834973-e8652182-9f81-4805-a09d-5461ef2a1eeb.jpeg)
+or you can use city and country for better accuracy
+![_Using Pixel Weather Application_ - Step 6](https://user-images.githubusercontent.com/98225513/221835219-e3b87090-df40-4a79-a2a2-09c7d4ccba31.jpeg)
+![_Using Pixel Weather Application_ - Step 7](https://user-images.githubusercontent.com/98225513/221835226-ea25cbe9-6e46-4dd5-ba34-fc2591142db4.jpeg)
+
 ## Lessons Learned
 
 so thats was my first time approaching api from a .net platform, honestly it was really fun and opened up a whole new world for me, i feel like my projects scaleabillity should be a lot bigger once i will improve in web api.
@@ -27,3 +34,5 @@ so thats was my first time approaching api from a .net platform, honestly it was
  * [OpenWeatherApi-current weather data](https://openweathermap.org/current)
 
  * [LocationIq-geocoding api](https://locationiq.com/)
+
+* 

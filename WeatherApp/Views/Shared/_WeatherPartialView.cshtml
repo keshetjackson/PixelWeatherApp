@@ -1,0 +1,38 @@
+﻿@model Dictionary<string,string>
+
+<head>
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+	@foreach (var i in Model)
+	{
+			string key = i.Key;
+			string value = i.Value;
+		if (value.Length > 5)
+			value = value.Substring(0, 5);
+		if (key == "Temperature" || key == "FeelsLike" || key == "MaxTemp" || key == "MinTemp")
+		{
+			<p class="p-results">@key : @value  &#8451</p>
+		}
+		else if (key == "Humidity")
+		{
+			<p class="p-results">@key : @value %</p>
+		}
+		else if (key == "Visibilty")
+		{
+			<p class="p-results">@key : @value m</p>
+		}
+		else if (key == "WindSpeed")
+		{
+			<p class="p-results">@key : @value m/s</p>
+		}
+		else if (key == "Pressure")
+		{
+			<p class="p-results">@key : @value hPa</p>
+		}
+		else
+		{
+			<p class="p-results">@key : @value</p>
+		}
+	}
+</body>

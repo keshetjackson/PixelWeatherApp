@@ -1,0 +1,66 @@
+* {
+    font-family: "Audiowide", sans-serif;
+}
+body{
+    background-image: url("../images/pixel-art-sky-background-with-clouds-cloudy-blue-sky-vector-8bit-game-white-background_360488-614.jpg");
+    background-size:cover;
+}
+
+.div-input {
+    position:relative;
+    margin-top:4.3rem;
+    text-align: center;
+}
+
+.input-country{
+    width:230px;
+    height:30px;
+    text-align: center;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+    .results {
+    border: 3px solid;
+    padding: 0px 20px 0px 20px;
+    width: fit-content;
+    backdrop-filter: blur(5px);
+    margin: 100 auto;
+    text-align:center;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .div-input {
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+
+    .input {
+        width: 250px;
+        height: 25px;
+    }
+
+    .results {
+        height:90%;
+        width:90%;
+        position:relative;
+        margin-top:50px;
+    }
+}
+
+.sub {
+    position: relative;
+    text-align: center;
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}

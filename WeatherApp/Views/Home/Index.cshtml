@@ -1,0 +1,25 @@
+﻿
+<head>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+ </head>
+        
+
+<body>
+    <form asp-action="weather" >
+
+        <div class="div-input">
+            <input class="input"  type="text" name="city" class="input" id="city" placeholder="Enter City" required/>
+        </div>
+        <div class="div-input">
+            <input type="text" name="country" class="input-country" id="country" placeholder="Enter Country" />
+        </div>
+        <input type="submit" value="Submit" class="btn btn-primary sub" />        
+    </form>
+    <div class="results">
+        @{
+            if(Model != null) Html.RenderPartialAsync("_WeatherPartialView");
+        }
+    </div>
+</body>

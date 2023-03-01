@@ -8,7 +8,7 @@ Asp .Net Weather Application using pixel like design
 
 ## Installation
 
-simply pull and run it
+simply pull build and run it
 
 ## using the application 
 you can get weather  with only city name
